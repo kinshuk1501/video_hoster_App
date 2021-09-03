@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/upload.css">
+    <title>Upload</title>
+</head>
+<body>
+        <div class="navbar">
+            <img src="../CSS/logo.png" class="logo"><h5>video hoster</h5>
+           <nav>
+             <ul>
+               <li><a href="">Home</a></li>
+                <li><a href="">Videos</a></li>
+                 <li><a href="">Upload</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  </ul>
+           </nav>
+    <div class="container">
+        <form enctype="multipart/form-data" id="upload_form" method="POST">
+            
+            <h2>File Upload</h2>
+           <label>File Name:<input type="text" name="title" id="video_title" placeholder="Filename" ></label>
+           <br>
+           <br>
+           <label>Description:<input type="text" name="description" id="video_title" placeholder="Description"></label>
+           <br>
+           <br>
+            <input type="file" name="video" id="upload_video">
+            <br>
+            
+            <input type="submit" placeholder="Submitoe" id="btn1"> 
+        </nav>
+        </form>
+    </div>
+    <script src="../JS/Upload.js"></script>
+</body>
+</html>

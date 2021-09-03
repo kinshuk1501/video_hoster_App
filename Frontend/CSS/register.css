@@ -1,0 +1,77 @@
+
+    body{
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+       /* background-color:lightpink;*/
+       background-image: url(./Best.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size:200%;
+    }
+    .container
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        
+        transform: translate(-50% , -50%);
+        width: 400px;
+        height:350px;
+        background:white;
+        border-radius: 30px;
+        border: 2px solid black;
+        box-shadow: 2px 2px 3px 3px lightslategrey;
+        background-image: url(.//Best.jpg);
+        
+    }
+    .container h2 {
+        border-bottom: lightsteelblue 1px  0;
+        
+    }
+    #signup_userid
+    {   position: relative;
+        border-bottom:2px solid #adadad ;
+        margin: 10px 0;
+        left: 4%;
+
+    }  
+    #signup_uname
+    {
+        color: white;
+        position: relative;
+        border-bottom:2px solid #adadad ;
+        margin: 10px 0;
+        top: 5%;
+        left: 1%;
+    }
+    #signup_email{
+        position: relative;
+        border-bottom:2px solid #adadad ;
+        margin: 10px 0;
+        left: 5%;
+    }
+    #signup_pass{
+        position: relative;
+        border-bottom:2px solid #adadad ;
+        margin: 10px 0;
+        left: 1%;
+    }
+    #btn-submit
+    {
+        margin: 5px;
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        right: -5%;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: black;
+    }
+#btn-submit:hover{
+    cursor: pointer;
+    background-color: salmon;
+}
+
+    

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="./CSS/Main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+    <button id="logout" onclick="logoutsession()">
+        Logout
+    </button>
+    
+    <button id="login" onclick="loginpage()">
+        Login
+    </button>
+    <button id="signup" onclick="signuppage()">
+        Register
+    </button>
+    <div id="allposts">
+     <button id="upload" onclick="uploadpage()">Create post</button>
+      <div id="result"></div>
+      <h1 id="checker">LOGIN/REGISTER TO SEE ALL POSTS</h1>
+    </div>
+  </div>
+    <script src="./JS/Main.js"></script>
+  </body>
+</html>
